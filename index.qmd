@@ -1,0 +1,28 @@
+---
+title: "Nevena Kolarevic"
+---
+
+![Nevena Kolarevic](Headshot.jpeg)
+
+#   About me
+
+I'm currently a graduate student in the MS in Business Analytics program at [Baruch College](https://baruch.cuny.edu/)'s [Zicklin School of Business](https://zicklin.baruch.cuny.edu/) in New York City.
+
+I graduated from [Fordham University](https://www.fordham.edu/) with a B.A. in Economics where I was also a Division I tennis player and team captain. Tennis has been a big part of my life for as long as I can remember, and being a student-athlete taught me a lot about discipline, teamwork, and balancing different responsibilities.
+
+I'm interested in the intersection of business, data, and technology, especially how data and AI can be used to solve real business problems and make better decisions. Through my graduate program, I'm building my skills in Python, SQL, Excel, statistics, and data visualization, and I'm looking forward to learning how to apply these tools to different areas of business.
+
+I'm particularly interested in finance and business analytics, and I enjoy working with data to find patterns, understand what is happening behind the numbers, and turn that information into something useful.
+
+Outside of school and work, I love trying new cuisines, finding unique spots around NYC, and exploring different neighborhoods. I'm also a big fan of true crime documentaries, so you can usually find me watching one when I'm not studying or playing tennis.
+
+[Connect with me on LinkedIn](https://www.linkedin.com/in/nevena-kolarevic/)
+
+```{r}
+#| include: false
+1+1
+```
+--------------
+Last Updated: `r format(Sys.time(), "%A %m %d, %Y at %H:%M%p")`
+
+
