@@ -181,8 +181,6 @@ slice_sample(NETFLIX_DATA, n = 10)
 
 ## Exploratory Questions
 
-The data covers the period from `r format(date_start, "%B %d, %Y")` to `r format(date_end, "%B %d, %Y")`, across seven six-month reports. There are r comma(n_titles) different titles in the dataset. I counted each season separately, as professor instructured it. The four seasons of Bridgerton and Queen Charlotte had a total of r comma(bridgerton_hours) hours watched. I didn't include Bridgerton Afterparty or the fireplace video to keep the comparison consistent fair and consistent. The five seasons of Stranger Things had r comma(stranger_things_hours) hours watched, while excluding Beyond Stranger Things, Tales From '85, and the fireplace video because of consistency as well. 
-
 ```{r}
 #| label: eda-questions
 # Objects for inline use, e.g. `r format(date_start, "%B %d, %Y")`,
@@ -239,7 +237,7 @@ global_share_hours <- NETFLIX_DATA |>
   pull(share)
 ```
 
-The data covers the period from `r format(date_start, "%B %d, %Y")` to `r format(date_end, "%B %d, %Y")`, across seven six-month reports. There are r comma(n_titles) different titles in the dataset. I counted each season separately, as professor instructured it. The four seasons of Bridgerton and Queen Charlotte had a total of r comma(bridgerton_hours) hours watched. I didn't include Bridgerton Afterparty or the fireplace video to keep the comparison consistent fair and consistent. The five seasons of Stranger Things had r comma(stranger_things_hours) hours watched, while excluding Beyond Stranger Things, Tales From '85, and the fireplace video because of consistency as well. 
+The data covers the period from `r format(date_start, "%B %d, %Y")` to `r format(date_end, "%B %d, %Y")`, across seven six-month reports. There are `r comma(n_titles)` different titles in the dataset. I counted each season separately, as professor instructured it. The four seasons of Bridgerton and Queen Charlotte had a total of `r comma(bridgerton_hours)` hours watched. I didn't include Bridgerton Afterparty or the fireplace video to keep the comparison consistent fair and consistent. The five seasons of Stranger Things had `r comma(stranger_things_hours)` hours watched, while excluding Beyond Stranger Things, Tales From '85, and the fireplace video because of consistency as well. 
 
 ## Exploratory Questions: Tables
 
@@ -426,6 +424,7 @@ For live events, I compared them using views because they tend to be shorter, so
 
 ### Memo Calculations
 
+```{r}
 #| label: memo-numbers
 # Numbers used as inline code in the strategy memo
 
@@ -445,6 +444,7 @@ views_by_type <- NETFLIX_DATA |>
 
 live_median  <- views_by_type$median_views[views_by_type$live_event]
 taped_median <- views_by_type$median_views[!views_by_type$live_event]
+```
 
 ### Strategy Memo
 
